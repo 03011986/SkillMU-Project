@@ -9,11 +9,7 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2 space-y-6">
             <Link to="/" className="inline-block">
-              <img
-                src="/images/logo.png"
-                alt="SkillMU"
-                className="h-10 w-auto object-contain brightness-100"
-              />
+              <img src={`${import.meta.env.BASE_URL}images/logo.png`} alt="SkillMU" className="h-8 w-auto" />
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed max-w-md">
               Platform pengembangan diri untuk meningkatkan soft skill dan hard skill. 

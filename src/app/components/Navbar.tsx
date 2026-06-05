@@ -21,11 +21,7 @@ export function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <img
-              src="/images/logo.png"
-              alt="SkillMU"
-              className="h-10 w-auto object-contain hover:scale-102 transition-transform duration-300"
-            />
+            <img src={`${import.meta.env.BASE_URL}images/logo.png`} alt="SkillMU" className="h-8 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}
