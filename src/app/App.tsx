@@ -12,7 +12,8 @@ import { Check } from 'lucide-react';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    // Tambahkan properti basename di sini agar rute menyesuaikan sub-folder GitHub Pages
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div className="min-h-screen flex flex-col">
         <Navbar />
         <main className="flex-1">
